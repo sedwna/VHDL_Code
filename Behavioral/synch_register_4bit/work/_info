@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/d_flip_flop
+T_opt
+!s110 1715775164
+V3zJKX7V@oCVk3cd4<HYIC3
+04 17 8 work tb_reg_4bit_synch behavior 1
+=1-7c10c9281572-6644a6bc-2c-8794
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Ereg_4bit_synch
+Z0 w1715775134
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+Z4 dC:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/synch_register_4bit
+Z5 8C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/synch_register_4bit/SRC/4bit_register_synch.vhdl
+Z6 FC:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/synch_register_4bit/SRC/4bit_register_synch.vhdl
+l0
+L5 1
+V^SKa5RC]@VaMnVzWS4L<23
+!s100 <8aO99;:O3Ee@BzF36bn20
+Z7 OL;C;2020.4;71
+32
+Z8 !s110 1715775145
+!i10b 1
+Z9 !s108 1715775145.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/synch_register_4bit/SRC/4bit_register_synch.vhdl|
+Z11 !s107 C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/synch_register_4bit/SRC/4bit_register_synch.vhdl|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+Z14 DEx4 work 14 reg_4bit_synch 0 22 ^SKa5RC]@VaMnVzWS4L<23
+!i122 5
+l16
+L13 18
+ViJ5^PLH:EFNOO6LBCjg4A3
+!s100 W@gP`CXe_>0Q_AX<^Gbdg2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etb_reg_4bit_synch
+Z15 w1715775117
+R1
+R2
+R3
+!i122 6
+R4
+Z16 8C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/synch_register_4bit/SRC/tb_4bit_register_synch.vhdl
+Z17 FC:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/synch_register_4bit/SRC/tb_4bit_register_synch.vhdl
+l0
+L5 1
+V;S2l_bNd?GMY[T2mT2j8Z0
+!s100 ;4z9gUlO^QhlTXElDN4_S2
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/synch_register_4bit/SRC/tb_4bit_register_synch.vhdl|
+Z19 !s107 C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/synch_register_4bit/SRC/tb_4bit_register_synch.vhdl|
+!i113 0
+R12
+R13
+Abehavior
+R14
+R1
+R2
+R3
+DEx4 work 17 tb_reg_4bit_synch 0 22 ;S2l_bNd?GMY[T2mT2j8Z0
+!i122 6
+l34
+L8 84
+VRTh`U6GV[WYJ@OaIO>mmz0
+!s100 zZYO3S5BE=fbe;XCMnUkC0
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 0
+R12
+R13
