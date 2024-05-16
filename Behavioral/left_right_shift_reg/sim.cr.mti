@@ -1,0 +1,19 @@
+C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/left_right_shift_reg/SRC/left_right_shift_reg.vhdl {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/left_right_shift_reg/SRC/left_right_shift_reg.vhdl
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity left_right_shift_reg
+-- Compiling architecture behavioral of left_right_shift_reg
+
+} {} {}} C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/left_right_shift_reg/SRC/tb_left_right_shift_reg.vhdl {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/left_right_shift_reg/SRC/tb_left_right_shift_reg.vhdl
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_left_right_shift_reg
+-- Compiling architecture behavior of tb_left_right_shift_reg
+-- Loading entity left_right_shift_reg
+
+} {} {}}
