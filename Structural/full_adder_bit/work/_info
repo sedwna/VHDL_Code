@@ -1,0 +1,140 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1715865635
+V]D3mX=RTl?kCc2V?OY<e43
+04 17 2 work tb_full_adder_bit tb 1
+=1-7c10c9281572-66460823-135-dc0
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1715865981
+VP]EADMojz73C;I4k>Q3aF3
+04 24 24 work testbench_full_adder_bit testbench_full_adder_bit 1
+=1-7c10c9281572-6646097d-130-5c0
+R1
+R2
+n@_opt1
+R3
+Ccfg_tb_full_adder_bit
+etb_full_adder_bit
+atb
+Z4 DEx4 work 14 full_adder_bit 0 22 ea^zD<CmV^^cah9zIDdV72
+DAx4 work 17 tb_full_adder_bit 2 tb 22 KPR`9ZHTn`gfj48BYWZ2B3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+DEx4 work 17 tb_full_adder_bit 0 22 gLnbjhIL^@H]eoDdc0YU>2
+!i122 13
+w1715865611
+Z7 dC:/Users/priso/OneDrive/Desktop/vhdl_code/Structural/full_adder_bit
+Z8 8C:/Users/priso/OneDrive/Desktop/vhdl_code/Structural/full_adder_bit/SRC/tb_full_adder_bit.vhdl
+Z9 FC:/Users/priso/OneDrive/Desktop/vhdl_code/Structural/full_adder_bit/SRC/tb_full_adder_bit.vhdl
+l0
+L55 1
+VP2VmVGEeDaGD2HfZQ53j<0
+!s100 _GmiMSZW5NoRoC[]CRnI21
+Z10 OL;C;2020.4;71
+32
+!s110 1715865626
+!i10b 0
+!s108 1715865626.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/priso/OneDrive/Desktop/vhdl_code/Structural/full_adder_bit/SRC/tb_full_adder_bit.vhdl|
+Z12 !s107 C:/Users/priso/OneDrive/Desktop/vhdl_code/Structural/full_adder_bit/SRC/tb_full_adder_bit.vhdl|
+!i113 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Efull_adder_bit
+Z15 w1715857355
+R5
+R6
+!i122 16
+R7
+Z16 8C:/Users/priso/OneDrive/Desktop/vhdl_code/Structural/full_adder_bit/SRC/full_adder_bit.vhdl
+Z17 FC:/Users/priso/OneDrive/Desktop/vhdl_code/Structural/full_adder_bit/SRC/full_adder_bit.vhdl
+l0
+L4 1
+Vea^zD<CmV^^cah9zIDdV72
+!s100 ^^hcdGoE;_baWF9?ao?CU2
+R10
+32
+Z18 !s110 1715865959
+!i10b 1
+Z19 !s108 1715865959.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/priso/OneDrive/Desktop/vhdl_code/Structural/full_adder_bit/SRC/full_adder_bit.vhdl|
+Z21 !s107 C:/Users/priso/OneDrive/Desktop/vhdl_code/Structural/full_adder_bit/SRC/full_adder_bit.vhdl|
+!i113 0
+R13
+R14
+Astruct
+R5
+R6
+R4
+!i122 16
+l13
+L11 6
+ViBiakk;R:N5h^;gbcJ^K=0
+!s100 FcISOc8DQ4ZDf_12keYk`0
+R10
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R13
+R14
+Etestbench_full_adder_bit
+Z22 w1715865957
+R5
+R6
+!i122 17
+R7
+R8
+R9
+l0
+L6 1
+VHY6DJ904^Fe8Ef_?a]W[j3
+!s100 H5]87lD]gMH];4WgHh]Zl3
+R10
+32
+R18
+!i10b 1
+R19
+R11
+R12
+!i113 0
+R13
+R14
+Atestbench_full_adder_bit
+R4
+R5
+R6
+DEx4 work 24 testbench_full_adder_bit 0 22 HY6DJ904^Fe8Ef_?a]W[j3
+!i122 17
+l25
+L9 91
+VW:4K41H]5Un2[QUjcIUGM3
+!s100 di0:hiJJ;jO6CY6zOJE<D2
+R10
+32
+R18
+!i10b 1
+R19
+R11
+R12
+!i113 0
+R13
+R14
