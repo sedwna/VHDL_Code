@@ -1,97 +1,63 @@
--- Testbench for full_subtractor_bit ENTITY
-
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
-ENTITY testbench_full_subtractor_bit IS
-END testbench_full_subtractor_bit;
+ENTITY full_subtractor_4_bit IS
+    PORT (
+        a, b : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+        barrow_in : IN STD_LOGIC;
+        diff : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+        barrow : OUT STD_LOGIC
+    );
+END full_subtractor_4_bit;
 
-ARCHITECTURE testbench_full_subtractor_bit OF testbench_full_subtractor_bit IS
+ARCHITECTURE struct OF full_subtractor_4_bit IS
 
-    -- Component Declaration
-    COMPONENT full_subtractor_bit
+    COMPONENT full_subtractor_bit IS
         PORT (
             a, b, barrow_in : IN STD_LOGIC;
             diff, barrow : OUT STD_LOGIC
         );
     END COMPONENT;
+    FOR ALL : full_subtractor_bit USE ENTITY work.full_subtractor_bit(struct);
 
-    -- Testbench Signals
-    SIGNAL a, b, barrow_in : STD_LOGIC := '0';
-    SIGNAL diff, barrow : STD_LOGIC;
+    SIGNAL zero : STD_LOGIC := '0';
+    SIGNAL b1 : STD_LOGIC := '0';
+    SIGNAL b2 : STD_LOGIC := '0';
+    SIGNAL b3 : STD_LOGIC := '0';
+    SIGNAL b4 : STD_LOGIC := '0';
 
 BEGIN
+    fs0 : full_subtractor_bit PORT MAP(
+        a => a(0),
+        b => b(0),
+        barrow_in => zero,
+        diff => diff(0),
+        barrow => b1
+    );
+    fs1 : full_subtractor_bit PORT MAP(
+        a => a(1),
+        b => b(1),
+        barrow_in => b1,
+        diff => diff(1),
+        barrow => b2
+    );
+    fs2 : full_subtractor_bit PORT MAP(
+        a => a(2),
+        b => b(2),
+        barrow_in => b2,
+        diff => diff(2),
+        barrow => b3
+    );
+    fs3 : full_subtractor_bit PORT MAP(
+        a => a(3),
+        b => b(3),
+        barrow_in => b3,
+        diff => diff(3),
+        barrow => b4
+    );
+    barrow <= b4;
 
-    -- Instantiate full_subtractor_bit Component
-    DUT : full_subtractor_bit
-        PORT MAP (
-            a => a,
-            b => b,
-            barrow_in => barrow_in,
-            diff => diff,
-            barrow => barrow
-        );
+END ARCHITECTURE;
 
-    -- Testbench Process
-    process
-    begin
-        -- Test Case 1
-        a <= '0';
-        b <= '0';
-        barrow_in <= '0';
-        wait for 10 ns;
-        assert diff = '0' and barrow = '0' report "Test Case 1 Passed" severity NOTE;
-
-        -- Test Case 2
-        a <= '0';
-        b <= '0';
-        barrow_in <= '1';
-        wait for 10 ns;
-        assert diff = '1' and barrow = '1' report "Test Case 2 Passed" severity NOTE;
-
-        -- Test Case 3
-        a <= '0';
-        b <= '1';
-        barrow_in <= '0';
-        wait for 10 ns;
-        assert diff = '1' and barrow = '0' report "Test Case 3 Passed" severity NOTE;
-
-        -- Test Case 4
-        a <= '0';
-        b <= '1';
-        barrow_in <= '1';
-        wait for 10 ns;
-        assert diff = '0' and barrow = '0' report "Test Case 4 Passed" severity NOTE;
-
-        -- Test Case 5
-        a <= '1';
-        b <= '0';
-        barrow_in <= '0';
-        wait for 10 ns;
-        assert diff = '1' and barrow = '0' report "Test Case 5 Passed" severity NOTE;
-
-        -- Test Case 6
-        a <= '1';
-        b <= '0';
-        barrow_in <= '1';
-        wait for 10 ns;
-        assert diff = '0' and barrow = '1' report "Test Case 6 Passed" severity NOTE;
-
-        -- Test Case 7
-        a <= '1';
-        b <= '1';
-        barrow_in <= '0';
-        wait for 10 ns;
-        assert diff = '0' and barrow = '0' report "Test Case 7 Passed" severity NOTE;
-
-        -- Test Case 8
-        a <= '1';
-        b <= '1';
-        barrow_in <= '1';
-        wait for 10 ns;
-        assert diff = '1' and barrow = '1' report "Test Case 8 Passed" severity NOTE;
-
-        wait;
-    end process;
-
-END testbench_full_subtractor_bit;
+-- Sajad Dehqan
+-- 40012358014
