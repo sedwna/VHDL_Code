@@ -1,0 +1,9 @@
+C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/moore_machine/SRC/seq_det_1011_moore.vhdl {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/priso/OneDrive/Desktop/vhdl_code/Behavioral/moore_machine/SRC/seq_det_1011_moore.vhdl
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity seq_det_1011_moore
+-- Compiling architecture behavioral of seq_det_1011_moore
+
+} {} {}}

@@ -9,7 +9,7 @@ ENTITY seq_det_1011_moore IS
 END seq_det_1011_moore;
 
 ARCHITECTURE behavioral OF seq_det_1011_moore IS
-    TYPE state IS (start, get_1, get_10, get_101, get_1011)
+    TYPE state IS (start, get_1, get_10, get_101, get_1011);
     SIGNAL next_state, current_state : state;
 
 BEGIN
