@@ -6,7 +6,7 @@ ENTITY left_shift_reg_n_bit IS
     PORT (
         clk, rst, we, sh : IN STD_LOGIC;
         d_in : IN STD_LOGIC_VECTOR(size - 1 DOWNTO 0);
-        d_out : IN STD_LOGIC_VECTOR(size - 1 DOWNTO 0)
+        d_out : OUT STD_LOGIC_VECTOR(size - 1 DOWNTO 0)
     );
 END left_shift_reg_n_bit;
 

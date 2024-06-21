@@ -5,7 +5,7 @@ ENTITY right_shift_reg_4_bit IS
     PORT (
         clk, rst, we, sh : IN STD_LOGIC;
         d_in : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-        d_out : IN STD_LOGIC_VECTOR(3 DOWNTO 0)
+        d_out : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
     );
 END right_shift_reg_4_bit;
 

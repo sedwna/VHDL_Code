@@ -5,7 +5,7 @@ ENTITY left_SIPO_n_bit IS
     GENERIC (size : STD_LOGIC := 4);
     PORT (
         clk, rst, en, si : IN STD_LOGIC;
-        d_out : IN STD_LOGIC_VECTOR(size - 1 DOWNTO 0)
+        d_out : out STD_LOGIC_VECTOR(size - 1 DOWNTO 0)
     );
 END left_SIPO_n_bit;
 
@@ -21,11 +21,7 @@ BEGIN
             IF (rst = '1') THEN
                 temp <= zero;
             ELSIF (we = '1') THEN
-                IF (sh = '0') THEN
-                    temp <= d_in;
-                ELSE
-                    temp <= temp(size - 2 DOWNTO 0) & '0';
-                END IF;
+                temp <= temp(size - 2 DOWNTO 0) & si;
             END IF;
         END IF;
     END PROCESS;
