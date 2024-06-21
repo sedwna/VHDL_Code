@@ -2,10 +2,10 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
 ENTITY left_SIPO_n_bit IS
-    GENERIC (size : STD_LOGIC := 4);
+    GENERIC (size : INTEGER := 4);
     PORT (
         clk, rst, en, si : IN STD_LOGIC;
-        d_out : out STD_LOGIC_VECTOR(size - 1 DOWNTO 0)
+        d_out : OUT STD_LOGIC_VECTOR(size - 1 DOWNTO 0)
     );
 END left_SIPO_n_bit;
 

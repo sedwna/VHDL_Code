@@ -2,7 +2,7 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
 ENTITY left_shift_reg_n_bit IS
-    GENERIC (size : STD_LOGIC := 4);
+    GENERIC (size : INTEGER := 4);
     PORT (
         clk, rst, we, sh : IN STD_LOGIC;
         d_in : IN STD_LOGIC_VECTOR(size - 1 DOWNTO 0);
