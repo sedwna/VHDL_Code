@@ -15,4 +15,4 @@ BEGIN
     a_gt_b <= gt OR (eq AND a AND(NOT b));
     a_eq_b <= eq AND(((NOT a) AND (NOT b)) OR (a AND b));
     a_lt_b <= lt OR(eq AND(NOT a)AND b);
-    END ARCHITECTURE;
+END ARCHITECTURE;
