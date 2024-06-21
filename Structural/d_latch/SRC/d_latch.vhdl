@@ -1,6 +1,6 @@
 ENTITY d_latch IS
     PORT (
-        clk, rst, d : IN STD_LOGIC;
+        c, rst, d : IN BIT;
         q, q_bar : OUT BIT
     );
 END d_latch;
