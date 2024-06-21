@@ -1,0 +1,57 @@
+C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/register_n_bit.vhdl {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/register_n_bit.vhdl
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_n_bit
+-- Compiling architecture behavioral of register_n_bit
+
+} {} {}} C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/left_shift_reg_n_bit.vhdl {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/left_shift_reg_n_bit.vhdl
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity left_shift_reg_n_bit
+-- Compiling architecture behavioral of left_shift_reg_n_bit
+
+} {} {}} C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/full_adder_n_bit.vhdl {2 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/full_adder_n_bit.vhdl
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder_n_bit
+-- Compiling architecture struct of full_adder_n_bit
+-- Loading entity full_adder
+** Warning: C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/full_adder_n_bit.vhdl(22): (vcom-1263) Configuration specification "all : full_adder" applies to no component instantiation statements.
+
+} {} {}} C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/full_adder.vhdl {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/full_adder.vhdl
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture struct of full_adder
+
+} {} {}} C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/data_path.vhdl {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/data_path.vhdl
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity data_path
+-- Compiling architecture struct of data_path
+-- Loading entity full_adder_n_bit
+-- Loading entity register_n_bit
+-- Loading entity right_PISO_n_bit
+-- Loading entity left_shift_reg_n_bit
+
+} {} {}} C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/right_PISO_n_bit.vhdl {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/priso/OneDrive/Desktop/vhdl_code/_prj/Multiplier_4_bit/SRC/right_PISO_n_bit.vhdl
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity right_PISO_n_bit
+-- Compiling architecture behavioral of right_PISO_n_bit
+
+} {} {}}
