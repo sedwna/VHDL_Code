@@ -2,13 +2,13 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
-ENTITY tb_left_right_shift_reg IS
-END tb_left_right_shift_reg;
+ENTITY tb_left_right_shift_reg_4_bit IS
+END tb_left_right_shift_reg_4_bit;
 
-ARCHITECTURE behavior OF tb_left_right_shift_reg IS
+ARCHITECTURE behavior OF tb_left_right_shift_reg_4_bit IS
 
     -- Component Declaration for the Unit Under Test (UUT)
-    COMPONENT left_right_shift_reg
+    COMPONENT left_right_shift_reg_4_bit
         PORT (
             clk : IN STD_LOGIC;
             s1 : IN STD_LOGIC;
@@ -17,7 +17,7 @@ ARCHITECTURE behavior OF tb_left_right_shift_reg IS
             d_out : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
         );
     END COMPONENT;
-    FOR ALL : left_right_shift_reg USE ENTITY work.left_right_shift_reg(behavioral);
+    FOR ALL : left_right_shift_reg_4_bit USE ENTITY work.left_right_shift_reg_4_bit(behavioral);
 
     -- Inputs
     SIGNAL clk : STD_LOGIC := '0';
@@ -34,7 +34,7 @@ ARCHITECTURE behavior OF tb_left_right_shift_reg IS
 BEGIN
 
     -- Instantiate the Unit Under Test (UUT)
-    uut : left_right_shift_reg PORT MAP(
+    uut : left_right_shift_reg_4_bit PORT MAP(
         clk => clk,
         s1 => s1,
         s2 => s2,

@@ -4,15 +4,15 @@ USE ieee.std_logic_1164.ALL;
 -- s1 = 1 and s2 = 0 // left shift
 -- s1 = 0 and s2 = 1 // right shift
 -- s1 = 1 and s2 = 1 // load input on ports
-ENTITY left_right_shift_reg IS
+ENTITY left_right_shift_reg_4_bit IS
     PORT (
         clk, s1, s2 : IN STD_LOGIC;
         d_in : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
         d_out : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
     );
-END left_right_shift_reg;
+END left_right_shift_reg_4_bit;
 
-ARCHITECTURE behavioral OF left_right_shift_reg IS
+ARCHITECTURE behavioral OF left_right_shift_reg_4_bit IS
 
     SIGNAL temp : STD_LOGIC_VECTOR(3 DOWNTO 0);
 BEGIN
