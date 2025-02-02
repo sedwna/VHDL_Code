@@ -74,11 +74,10 @@ Digital_Design_Repository/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Digital_Design_Repository.git
-   cd Digital_Design_Repository
+   git clone https://github.com/sedwna/vhdl_code.git
    ```
 
-2. Open the desired module in your VHDL/Verilog simulator.
+2. Open the desired module in your VHDL simulator.
 
 3. Compile and simulate the module using the provided testbenches.
 
