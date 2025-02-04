@@ -14,7 +14,6 @@ This repository contains a collection of **VHDL modules** for **behavioral** and
 4. [Usage](#usage)
 5. [Modules Overview](#modules-overview)
 6. [Contributing](#contributing)
-7. [License](#license)
 
 ---
 
@@ -145,12 +144,6 @@ We welcome contributions to this repository! If you'd like to contribute, please
 3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push your changes to your fork (`git push origin feature/YourFeatureName`).
 5. Open a Pull Request.
-
----
-
-## License 📜
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
