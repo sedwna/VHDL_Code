@@ -158,7 +158,5 @@ For questions or feedback, feel free to reach out:
 
 - **Email**: [sajaddehqan2002@gmail.com]
 - **GitHub**: [[My GitHub Profile](https://github.com/sedwna)]
-- **Project Repository**: [[ChatterAI GitHub Repo](https://github.com/sedwna/vhdl_code)]
-
 ---
 
